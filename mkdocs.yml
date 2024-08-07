@@ -1,15 +1,13 @@
-site_name: Echo Station Wiki
+site_name: "Echo Station: Admin Wiki"
 docs_dir: docs
 site_url: https://wiki.echo-station.org/
 repo_url: https://github.com/echo-station/wiki
 
 nav:
-  - Welcome: index.md
-  - Rules:
-    - rules/company-policy.md
-    - rules/space-law.md
-    - rules/standard-operating-procedure.md
-    - rules/alert-procedure.md
+  - Home: index.md
+  - Whitelists:
+    - whitelists/server.md
+    - whitelists/role.md
   # - Lore:
   #   - lore/lore.md
 
@@ -18,6 +16,10 @@ markdown_extensions:
   - pymdownx.saneheaders # If you write "#header", it wont work anymore. Write "# header" instead.
   - pymdownx.blocks.details # Adds detail blocks
   - pymdownx.blocks.admonition # Adds admonition blocks
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search # Enables search (yes, really!)
@@ -54,14 +56,14 @@ theme:
     # Dark mode first, making it the default.
     # Palette toggle for dark mode
     - scheme: slate
-      primary: blue
+      primary: deep-purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
     # Palette toggle for light mode
     - scheme: default
-      primary: deep-orange
+      primary: deep-purple
       accent: cyan
       toggle:
         icon: material/brightness-7 
