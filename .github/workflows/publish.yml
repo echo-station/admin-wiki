@@ -37,6 +37,6 @@ jobs:
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.WIKI_CF_PAGES_TOKEN }}
-          accountId: ${{ secrets.WIKI_CF_ACCOUNT_ID }}
-          command: pages deploy site --project-name=${{ vars.WIKI_CF_PROJECT_NAME }}
+          apiToken: ${{ secrets.CF_PAGES_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy site --project-name=${{ vars.CF_PROJECT_NAME }}
