@@ -2,7 +2,6 @@
     title: Server whitelist
     description: Welcome to Echo Station!
     published: true
-    editor: markdown
 ---
 
 Echo Station aims to be inbetween Medium RolePlay (MRP) and High RolePlay (HRP). To faciliate this we require players to be server whitelisted (this page), and optionally even [Role whitelisted](./role.md).
