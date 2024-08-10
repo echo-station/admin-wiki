@@ -5,25 +5,36 @@ repo_url: https://github.com/echo-station/admin-wiki
 
 nav:
   - Home: index.md
+  - Rules: https://wiki.echo-station.org/rules/
   - Administrating:
     - administrating/index.md
-    - administrating/raiders.md
-    - administrating/minor-infractions.md
-  - Game Mastering:
-    - game-mastering/index.md
-  - Punishing:
-    - punishing/ingame.md
-    - punishing/discord.md
-    - punishing/appeals.md
-  - Whitelists:
-    - whitelists/server.md
-    - whitelists/role.md
+    - administrating/policies.md
+    - Rule breaks:
+      - administrating/rule-breaks/severities.md
+      - administrating/rule-breaks/repeat-offender.md
+      #- administrating/rule-breaks/toeing-the-line.md
+    - Punishments:
+      - administrating/punishing/options.md
+      - administrating/punishing/escalation.md
+      - administrating/punishing/examples.md
+  - Guides:
+    - guides/raiders.md
+  # - Reference sheets:
+  #   - reference/measures.md
+  # - Game Mastering: # TODO
+  #   - game-mastering/index.md
+  # - Whitelists: # TODO
+  #   - whitelists/server.md
+  #   - whitelists/role.md
+  # - Bans & Appeals: # TODO
+  #   - bans-and-appeals/index.md
   - Tools:
-    - tools/index.md
+    # - tools/index.md
     - tools/ahelp.md
-    - tools/admin-web.md
-    - tools/commands.md
-  - Player Wiki: https://awiki.echo-station.org/
+    - tools/noting.md
+  #   - tools/admin-web.md
+  #   - tools/commands.md
+  - Player Wiki: https://wiki.echo-station.org/
 
 markdown_extensions:
   - tables
