@@ -15,10 +15,11 @@ nav:
       #- administrating/rule-breaks/toeing-the-line.md
     - Punishments:
       - administrating/punishing/options.md
-      - administrating/punishing/escalation.md
-      - administrating/punishing/examples.md
+      # - administrating/punishing/escalation.md
+      # - administrating/punishing/examples.md
   - Guides:
     - guides/raiders.md
+    - guides/remove-rotting.md
   # - Reference sheets:
   #   - reference/measures.md
   # - Game Mastering: # TODO
@@ -39,7 +40,7 @@ nav:
 markdown_extensions:
   - tables
   - pymdownx.saneheaders # If you write "#header", it wont work anymore. Write "# header" instead.
-  - pymdownx.blocks.details # Adds detail blocks
+  - pymdownx.blocks.details # Adds collapsible details blocks
   - pymdownx.blocks.admonition # Adds admonition blocks
   - attr_list
   - pymdownx.emoji:
