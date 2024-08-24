@@ -16,4 +16,3 @@ As a general reference sheet, the list of possible consequences admins can hand 
 - Temporary ban (ideas: 24h, 48h, 1 week, 2 weeks, 4 week)
 - Appeal-only ban
 - Permanent ban
-
