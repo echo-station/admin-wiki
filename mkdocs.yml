@@ -53,13 +53,13 @@ plugins:
 
   # Shows a clean list of Github profiles at the bottom of a page.
   - git-committers:
-      enabled: false
+      enabled: !ENV [CI, False]
+      token: !ENV [GITHUB_TOKEN]
       repository: echo-station/admin-wiki
       branch: master
 
   # Adds "Created:" and "Last update:" footer to each page.
   - git-revision-date-localized:
-      strict: false
       enable_creation_date: true
 
 theme:
